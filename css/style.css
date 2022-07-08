@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 520px;
+    width: 100%;
+    color: white;
+}
+
+/* Inicio Header */
+header{
+    height: 3em;
+    background-color: black;
+}
+
+nav{
+    background-color: none;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+#menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-transform: uppercase;
+        height: 100%;
+        align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+section{
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em;
+    background-image: url(../img/fundo.jfif);
+}
+
+
+/* Inicio Footer */
+footer{
+    height: 50em;
+    background-color: black;
+    font-family: "Titillium web", sans-serif;
+    text-align: center;
+    padding: 1em;
+}
+/* Fim Footer */
